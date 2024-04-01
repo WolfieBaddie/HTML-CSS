@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_Form</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/ec6696a3fc.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="container">
+    <h1>Create Account</h1>
+    <h2>Get started with your free account</h2>
+    
+    <a class="twitter btn" href="https://twitter.com/?lang=en">
+        <div class="twitter-icon btn-icon"></div>
+        <i class="fa-brands fa-twitter"></i>
+        Login with Twitter
+        
+      </a>
+      
+    <a class="facebook btn" href="https://www.facebook.com/">
+        <div class="btn-icon fb-icon"></div>
+        <i class="fa-brands fa-facebook"></i>
+        Login with Facebook
+    
+      </a>
+      <h3>----------------------------------- OR -----------------------------------</h3>
+      <form action="action_page.php" method="post">
+    <div class="login">
+    <i class="fa-solid fa-user icon"></i>
+    <label for="uname"><b></b></label>
+    <input class = "uname" type="text" placeholder="Full Name" name="uname" required>
+    </div>
+    <div class="login1">
+        <i class="fa-solid fa-user icon"></i>
+        <label for="email"><b></b></label>
+        <input class = "email" type="text" placeholder="Email Adress" name="email" required>
+        </div>
+        <div class="login2">
+            <i class="fa-solid fa-user icon"></i>
+            <label for="uname"><b></b></label>
+            <input class = "uname" type="text" placeholder="Phonenumber" name="uname" required>
+            </div>
+            <div class="jobs-type">
+                <select name="jobs" id="jobs">
+                    <label for="jobs"></label>
+                <option selected = "">Select job type</option>
+                <option value="">Designer</option>
+                <option value="">Manager</option>
+                <option value="">Accaunting</option>
+            </select>
+                
+                <div class="login4">
+                    
+                    <i class="fa-solid fa-user icon"></i>
+                    <label for="uname"><b></b></label>
+                    <input class = "password" type="text" placeholder="Password" name="password" required>
+                
+                    </div>
+                <div class="login5">
+                        <i class="fa-solid fa-user icon"></i>
+                        <label for="password2"><b></b></label>
+                        <input class = "conf-password" type="text" placeholder="Repeat Password" name="password2" required>
+                </div>
+                <div class="create-account">
+                <a href="">CREATE ACCOUNT</a>
+            </div>
+                <div class="have-account">
+                <h4>Have an Account?</h4>
+                <a href="">Login</a>
+                </div>
+</div>
+
+</body>
+</html>

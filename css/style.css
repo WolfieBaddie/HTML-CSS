@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container a{
+    font-size: 16px;
+    
+
+}
+.container h1{
+    margin-top: 50px;
+}
+
+.container h2{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.twitter {
+    background-color: #1bb2e9;
+    color: #f4f4f4;
+    .btn-icon{
+      background-color: #1bb2e9;
+    }
+    &:hover {
+      background-color:#1B8EB8;
+    }
+}
+
+.facebook{
+    background-color: #405e9e;
+    color: #f4f4f4;
+    .btn-icon{
+        background-color: #526ba1;
+      }
+      &:hover {
+        background-color:#526ba1;
+      }
+}
+
+.btn {
+   
+    color: #f4f4f4;
+    
+    font-size: 12px;
+    
+    line-height: 50px;
+    margin: 5px auto;
+    text-transform: uppercase;
+    
+  
+}
+
+.btn-icon {
+    display: block;
+    float: left;
+  
+
+ }
+
+ .twitter {
+    width: 400px;
+    margin-top: 15px;
+ }
+
+ .facebook{
+    width: 400px;
+ }
+.container a{
+    text-decoration: none;
+}
+
+
+.container i{
+    margin-right: 10px;
+}
+
+.container h3{
+    opacity: 0.5;
+    font-size: 16px;
+}
+
+
+
+
+.login{
+   width: 400px;
+   margin-bottom: 10px;
+   display: flex;
+   flex-direction: row;
+  
+
+}
+
+.login i{
+    position: absolute;
+   
+}
+
+.uname{
+    width: 100%;
+    padding: 5px;
+    height: 38px;
+    
+    display: block;
+    padding: 3px 42px 0;
+    font-size: 16px;
+    
+}
+
+.icon{
+    padding: 10px;
+    color: gray;
+    min-width: 50px;
+    
+}  
+
+.login1{
+    width: 400px;
+   margin-bottom: 10px;
+   display: flex;
+   flex-direction: row;
+}
+
+.login1 i{
+    position: absolute;
+}
+
+
+.email{
+    width: 100%;
+    padding: 5px;
+    height: 38px;
+    
+    display: block;
+    padding: 3px 42px 0;
+    font-size: 16px;
+}
+
+
+
+.login2 i{
+    position: absolute;
+}
+
+
+.password{
+    width: 100%;
+    padding: 5px;
+    height: 38px;
+    
+    display: block;
+    padding: 3px 42px 0;
+    font-size: 16px;
+}
+.login2{
+    width: 400px;
+   margin-bottom: 10px;
+   display: flex;
+   flex-direction: row;
+}
+
+
+
+.login3 i{
+    position: absolute;
+}
+
+
+.password{
+    width: 100%;
+    padding: 5px;
+    height: 38px;
+    
+    display: block;
+    padding: 3px 42px 0;
+    font-size: 16px;
+}
+.login3{
+    width: 400px;
+   margin-bottom: 10px;
+   display: flex;
+   flex-direction: row;
+}
+
+
+.login4 i{
+    position: absolute;
+}
+
+
+.password{
+    width: 100%;
+    padding: 5px;
+    height: 38px;
+    
+    display: block;
+    padding: 3px 42px 0;
+    font-size: 16px;
+}
+.login4{
+    width: 400px;
+   margin-bottom: 10px;
+   display: flex;
+   flex-direction: row;
+}
+
+
+.login5 i{
+    position: absolute;
+}
+
+
+.password2{
+    width: 100%;
+    padding: 5px;
+    height: 38px;
+    
+    display: block;
+    padding: 3px 42px 0;
+    font-size: 16px;
+}
+.login5{
+width: 400px;
+   margin-bottom: 10px;
+   display: flex;
+   flex-direction: row;
+}
+
+
+h4{
+    position: absolute;
+    margin-left: 50px;
+}
+
+.jobs-type{
+    width: 400px;
+}
+
+.create-account{
+    width: 400px;
+    height: 50px;
+    background-color: #1bb2e9;
+    color: #f4f4f4;
+}
+
+.create-account a{
+    padding-top: 10px;
+}
